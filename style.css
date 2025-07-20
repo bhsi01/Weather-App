@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: none;
+}
+
+body {
+    background-color: black;
+    color:white;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.heading {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-size:x-large;
+    color:black;
+    margin: 10px;
+    text-align: center;   
+}
+
+.input {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+
+}
+
+#city {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    color: #333;
+    font-size: 16px;
+    padding: 2.5px;
+    width: 80%;
+}
+
+#submit {
+    background-color: blue;
+    color:white;
+    font-size: 16px;
+    padding: 2.5px;
+    border-radius: 5px;
+}
+
+.showdata {
+    margin: 15px;
+    font-weight: bolder;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width:1000px) {
+
+    .container {
+        padding: 15px;
+        margin: 15px;
+    }
+
+    .heading {
+        font-size: xx-large;
+        margin: 15px;
+    }
+
+    .input {
+        margin: 15px;
+    }
+
+    #city , #submit{
+        font-size: x-large;
+        padding: 5px;
+    }
+
+    .showdata {
+        font-size: x-large;
+    }
+}
